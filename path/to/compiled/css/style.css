@@ -1,0 +1,88 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "inter";
+}
+
+.container {
+  padding: 20px 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .logo {
+  display: flex;
+  align-items: center;
+  column-gap: 1px;
+}
+.header .logo-text {
+  color: orange;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.header img {
+  height: 80px;
+}
+
+.hero form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  align-items: center;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.hero input {
+  display: block;
+  height: 40px;
+  width: 300px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 1px solid orange;
+}
+.hero .login {
+  color: orange;
+}
+.hero .container {
+  padding: 20px 20px;
+  width: 550px;
+  height: 450px;
+  box-sizing: border-box;
+}
+.hero .password {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+}
+.hero p {
+  font-size: 13px;
+  color: red;
+}
+.hero button {
+  background-color: orange;
+  color: white;
+  font-size: 17px;
+  font-family: "inter";
+  font-weight: 300;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}

@@ -1,0 +1,54 @@
+.hero { 
+    //padding: 50px 200px;
+
+
+
+
+    form {display: flex;
+         flex-direction: column;
+         row-gap: 30px;
+         align-items: center;
+          left: 0;
+          right: 0;
+          top: 0;}
+
+
+      input {display: block;
+            height: 40px;
+           width: 300px;
+          font-size: 18px;
+          border-radius: 10px;
+         border: 1px solid orange;} 
+         
+         
+
+         .login {color: orange;}
+
+         .container {padding: 20px 20px;
+            width: 550px;
+            height: 450px;
+          box-sizing: border-box;}   
+ 
+
+
+         .password {
+          display: flex;
+          flex-direction: column;
+          justify-content: baseline;
+
+         }
+
+         p {font-size: 13px;
+          color: red;}
+         
+         
+
+         button{background-color: orange;
+              color: white;
+              font-size: 17px;
+             font-family: 'inter';
+             font-weight: 300;
+             padding: 10px;
+             border-radius: 10px;
+             border: none;}
+}
